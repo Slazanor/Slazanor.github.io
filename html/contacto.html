@@ -1,0 +1,100 @@
+<!--Ivan Delgado Hernandez 1DAMB-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllShoes Store</title>
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="icon" href="../Imagenes/Logos/Logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="marca">
+            <img src="../Imagenes/Logos/Logo.png" alt="Logo" class="logo">
+            <span>ALL</span><span class="naranja">SHOES</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="sobreNosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="cursos.html">CURSOS</a></li>
+                <li><a href="tienda.html">TIENDA</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="linea-separacion"></div>
+
+    <div class="titulo">
+        <h1>CONTACTO</h1>
+    </div>
+
+    <div class="linea-separacion"></div>
+
+    <main class="contenedor">
+        <section class="seccion-pregunta">
+            <h2>¿TIENES ALGUNA DUDA?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolor laudantium quaerat optio reiciendis accusantium aspernatur maxime mollitia consectetur expedita voluptatum ipsa nemo enim, voluptate, esse unde eligendi? Repudiandae a nisi enim molestiae eos maxime deserunt sint totam esse. Reprehenderit eos cum aliquid nemo distinctio id nihil reiciendis sunt natus!</p>
+            <h3>E-mail:</h3>
+            <p>info@allshoes.es</p>
+            <h3>Redes sociales:</h3>
+            <div class="link-social">
+                <div class="icono-social">
+                    <a href="http://twitter.com">
+                        <img src="../Imagenes/RedesSociales/twitter-icon.png" alt="Twitter">
+                    </a>
+                </div>
+                <div class="icono-social">
+                    <a href="http://whatsapp.com">
+                        <img src="../Imagenes/RedesSociales/whatsapp-logo.png" alt="WhatsApp">
+                    </a>
+                </div>
+                <div class="icono-social">
+                    <a href="http://instagram.com">
+                        <img src="../Imagenes/RedesSociales/instagram-logo.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="icono-social">
+                    <a href="http://telegram.org">
+                        <img src="../Imagenes/RedesSociales/telegram-icon.png" alt="Telegram">
+                    </a>
+                </div>
+                <div class="icono-social">
+                    <a href="http://facebook.com">
+                        <img src="../Imagenes/RedesSociales/facebook-icon.png" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="seccion-cuestionario">
+            <form action="/submit-form" method="POST" onsubmit="this.reset(); return false;">
+                <input type="text" class="campo" placeholder="NOMBRE" required>
+                <input type="email" class="campo" placeholder="CORREO (CORREO@EMAIL.COM)" required>
+                <input type="tel" class="campo" placeholder="TELÉFONO (+34 XXX XXX XXX)" required>
+                <select class="campo">
+                    <option value="1">TEMA</option>
+                    <option value="2">CONSULTA</option>
+                    <option value="3">PRESUPUESTO</option>
+                    <option value="4">RECLAMACION</option>
+                </select>
+                <textarea class="campo" placeholder="MENSAJE" required></textarea>
+                <div class="seccion-caja">
+                    <input type="checkbox" id="terminos" required>
+                    <label for="terminos">Aceptar condiciones</label>
+                </div>
+                <div class="seccion-boton">
+                    <input type="submit" value="ENVIAR" class="boton-enviar">
+                </div>                
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

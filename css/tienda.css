@@ -1,0 +1,146 @@
+
+ul, h1, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.marca {
+    float: left;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.marca span.naranja {
+    color: orange;
+}
+
+.logo {
+    height: 60px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block; 
+    padding: 30px 50px; 
+    font-size: 1.75em; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.linea-separacion {
+    border-bottom: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.titulo{
+
+    text-align: center;
+    font-style: oblique;
+    padding: 1% 0;
+}
+
+section {
+    width: 97%;
+    margin: 20px auto;
+    position: relative; 
+    min-height: 60vh;
+    margin-left: 1.7%;
+    margin-top: 5%;
+}
+
+.estructura-productos {
+    overflow: hidden;
+}
+
+.producto {
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto:last-child {
+    margin-right: 0;
+}
+
+.producto img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.producto img:hover {
+    
+    transform:scale(1.05);
+}
+
+.producto h2 {
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.cambiar-pagina {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-right: 2.5%;
+}
+
+.cambiar-pagina button {
+    border: none;
+    padding: 10px 15px; 
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px; 
+    font-size: 16px; 
+}
+
+button:hover {
+    color: orange;
+}

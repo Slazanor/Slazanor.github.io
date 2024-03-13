@@ -1,0 +1,155 @@
+
+ul, h1, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.marca {
+    float: left;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.marca span.naranja {
+    color: orange;
+}
+
+.logo {
+    height: 60px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block; 
+    padding: 30px 50px; 
+    font-size: 1.75em; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.titular {
+    background-image: url('../Imagenes/Carroussel/Carroussel-1.webp');
+    color: white;
+    padding: 40px;
+    min-height: 1000px; 
+    background-position: 40% 100%;
+    background-size: cover; 
+    position: relative; 
+    margin: 0% 1.5%;
+}
+
+.titular h1 {
+    margin-bottom: 10px;
+    font-size: 4em;
+    position: absolute;
+    left: 75px; 
+    clear: both;
+}
+
+.titular h1:nth-of-type(1) {
+    top: 15%; 
+}
+
+.titular h1:nth-of-type(2) {
+    top: 22.5%; 
+}
+
+.titular h1:nth-of-type(3) {
+    top: 30%; 
+}
+
+.linea-separacion {
+    border-bottom: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+section {
+    overflow: auto;
+    padding: 20px;
+}
+
+.contenido-izquierda {
+    float: left;
+    width: 49.25%;
+    margin-left: 0.75%;
+}
+
+.contenido-izquierda p {
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+    float: left;
+    margin-right: 20px;
+    margin-top: 2%;
+    font-size: 2em; 
+    border-radius: 20px; 
+}
+
+button:hover{
+
+    color: orange;
+}
+
+.contenido-derecha {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.contenido-derecha img {
+    width: 31.5%;
+    margin: 0 10px;
+    float: left;
+}
+
+.contenido-derecha img:hover{
+
+    transform:scale(1.05);
+}
+
+.titulo{
+
+    text-align: center;
+    font-style: oblique;
+    padding: 1% 0;
+}

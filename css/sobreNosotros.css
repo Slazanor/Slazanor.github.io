@@ -1,0 +1,153 @@
+
+ul, h1, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.marca {
+    float: left;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.marca span.naranja {
+    color: orange;
+}
+
+.logo {
+    height: 60px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block; 
+    padding: 30px 50px; 
+    font-size: 1.75em; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.linea-separacion {
+    border-bottom: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.titulo{
+
+    text-align: center;
+    font-style: oblique;
+    padding: 1% 0;
+}
+
+.sobre-nosotros {
+    overflow: auto; 
+    padding: 20px;
+}
+
+.imagen-sobre-nosotros {
+    float: left;
+    width: 50%; 
+}
+
+.imagen-sobre-nosotros img {
+    width: 100%; 
+    display: block; 
+}
+
+.contenido {
+    float: right;
+    width: 50%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.marca-cuerpo {
+    display: flex; 
+    align-items: center; 
+}
+
+.cuerpo-logo {
+    margin-right: 10px; 
+    width: 50px; 
+    height: auto;
+}
+
+.negro {
+    color: black; 
+}
+
+.contenido h2 {
+    margin-top: 0;
+    color: #555; 
+    font-size: 2em; 
+}
+
+.contenido h1 {
+    margin-top: 10px;
+    font-size: 2.5em; 
+    display: inline; 
+    color: orange; 
+    margin-left: 5px; 
+}
+
+.contenido p {
+    color: #333; 
+    text-align: justify;
+}
+
+.contenido p:nth-of-type(1) {
+
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.iconos {
+    margin-top: 20px; 
+}
+
+.iconos a {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.iconos img {
+    width: 24px; 
+    height: auto;
+}
+
+.iconos img:hover{
+
+    transform:scale(1.2);
+}

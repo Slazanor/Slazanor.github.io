@@ -1,0 +1,151 @@
+ul, h1, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.marca {
+    float: left;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.marca span.naranja {
+    color: orange;
+}
+
+.logo {
+    height: 60px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block; 
+    padding: 30px 50px; 
+    font-size: 1.75em; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.linea-separacion {
+    border-bottom: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.titulo{
+
+    text-align: center;
+    font-style: oblique;
+    padding: 1% 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.seccion-pregunta,
+.seccion-cuestionario {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.seccion-pregunta p{
+
+    text-align: justify;
+}
+
+.seccion-pregunta p:nth-of-type(1){
+
+    font-weight: bold;
+}
+
+.campo {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.boton-enviar {
+    width: auto; 
+    padding: 10px 100px; 
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    float: right; 
+    margin-top: 10px; 
+    margin-right: 10%;
+    font-size: 1.5em; 
+}
+
+.boton-enviar:hover{
+    color: orange;
+}
+
+.seccion-caja {
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.link-social {
+    text-align: center; 
+    padding: 15px 0;
+}
+
+.icono-social {
+    display: inline-block; 
+    margin: 0 5px; 
+    position: relative; 
+}
+
+.icono-social img {
+    width: 100px; 
+    height: auto;
+}
+
+.icono-social img:hover {
+    transform:scale(1.05);
+}

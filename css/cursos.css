@@ -1,0 +1,137 @@
+
+ul, h1, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.marca {
+    float: left;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.marca span.naranja {
+    color: orange;
+}
+
+.logo {
+    height: 60px; 
+    margin-right: 10px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block; 
+    padding: 30px 50px; 
+    font-size: 1.75em; 
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: orange;
+}
+
+.linea-separacion {
+    border-bottom: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
+
+.titulo{
+
+    text-align: center;
+    font-style: oblique;
+    padding: 1% 0;
+}
+
+.curso {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.curso img {
+    float: left;
+    margin: 0 20px;
+    width: 45%;
+}
+
+.informacion-curso {
+    float: left;
+    width: 51%;
+    margin: 0 20px;
+
+}
+
+.imagen-derecha {
+    float: right;
+  
+}
+
+.informacion-curso h2 {
+    margin: 0;
+}
+
+.informacion-curso button{
+
+    float: right;
+    color: white;
+    background-color: gray;
+    border-radius: 20px; 
+    padding: 1% 4%;
+    font-size: 1em;
+}
+
+.duracion-curso {
+    font-weight: bold;
+}
+
+.descripcion-curso {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+    border-radius: 20px; 
+    padding: 1% 4%;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: black;
+    color: orange;
+}
+
