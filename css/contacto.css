@@ -123,6 +123,7 @@ header {
 
 .boton-enviar:hover{
     color: orange;
+    transform:scale(1.05);
 }
 
 .seccion-caja {
