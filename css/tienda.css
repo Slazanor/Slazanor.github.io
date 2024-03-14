@@ -143,5 +143,4 @@ button {
 
 button:hover {
     color: orange;
-    transform:scale(1.05);
 }

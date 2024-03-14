@@ -60,7 +60,6 @@ header {
 .titular {
     background-image: url('../Imagenes/Carroussel/Carroussel-1.webp');
     color: white;
-    padding: 40px;
     min-height: 1000px; 
     background-position: 40% 100%;
     background-size: cover; 
@@ -128,7 +127,6 @@ button {
 button:hover{
 
     color: orange;
-    transform:scale(1.05);
 }
 
 .contenido-derecha {
@@ -139,7 +137,7 @@ button:hover{
 
 .contenido-derecha img {
     width: 31.5%;
-    margin: 0 10px;
+    margin: 0 0.5%;
     float: left;
 }
 
